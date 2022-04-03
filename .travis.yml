@@ -27,7 +27,7 @@ deploy:
 # xej: /bodndel  /public ...etc
         local_dir: dist/
 # rama de publicación (sitio) de GitHub:
-        tarjet_branch: gh-pages
+        target_branch: gh-pages
         commit_message: "Deploy del proyecto travis"
         on:
                 branch: master
